@@ -3,6 +3,7 @@ import { Spotlight } from './ui/Spotlight'
 import { cn } from '@/lib/utils'
 import { TextGenerateEffect } from './ui/text-generate-effect'
 import MagicButton from './ui/MagicButton'
+import { FaLocationArrow } from 'react-icons/fa6'
 
 type Props = {}
 
@@ -28,26 +29,31 @@ const Hero = (props: Props) => {
                 />
                 {/* Radial gradient for the container to give a faded look */}
                 <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
-              
+
             </div>
 
             <div className="flex justify-center relative my-20 z-10">
                 <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex-col items-center justify-center">
-                    <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>Dynamic Web Magic with Next.js</h2>
+                    <h2 className='uppercase tracking-widest text-xs text-center w-full mx-auto text-blue-100 max-w-80 '>Dynamic Web Magic with Next.js</h2>
 
                     <TextGenerateEffect
-                    className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                    words='Transforming Concepts into seamless experiences'
+                        className='text-center text-[40px] md:text-5xl lg:text-6xl'
+                        words='Transforming Concepts into seamless experiences'
                     />
 
                     <p className='text-center md:tracking-wider mb-4 text-sm md md:text-lg lg:text-2xl'>Hi, i&apos;am badhon Next.js Developer based in bangladesh</p>
 
 
-                    <a href="#about" className=''>
-                        <MagicButton 
-                         title='Show my work'
+                 <div className="w-full text-center mt-5">
+                 <a href="#about" className='text-center'>
+                        <MagicButton
+                            icon={<FaLocationArrow />}
+                            position='right'
+                            title='Show my work'
                         />
                     </a>
+                 </div>
+
                 </div>
             </div>
 
