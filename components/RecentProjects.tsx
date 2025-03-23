@@ -3,6 +3,7 @@ import { projects } from '@/data'
 import React from 'react'
 import { PinContainer } from './ui/PinContainer'
 import { FaLocationArrow } from 'react-icons/fa6'
+import Link from 'next/link'
 
 
 
@@ -22,7 +23,7 @@ const RecentProjects = (props: Props) => {
                         <div key={index} className='lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-[500px] w-[80vw]'>
                             <PinContainer
                                 title="/ui.aceternity.com"
-                                href="https://twitter.com/mannupaaji"
+                                href="https://instagram-bd.vercel.app/"
                             >
                                 <div className="relative flex items-center justify-center sm:w-[500px] w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                                     <div
@@ -68,9 +69,9 @@ const RecentProjects = (props: Props) => {
                                     </div>
 
                                     <div className="flex justify-center items-center">
-                                        <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                                        <Link href={item.link} target='_blank' className="flex lg:text-xl md:text-xs text-sm text-purple">
                                             Check Live Site
-                                        </p>
+                                        </Link>
                                         <FaLocationArrow className="ms-3" color="#CBACF9" />
                                     </div>
                                 </div>
