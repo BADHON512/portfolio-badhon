@@ -18,18 +18,26 @@ const Hero = (props: Props) => {
         { text: "with" },
         { text: "effortless" },
         { text: "user" },
-        { text: "experiences.", 
-            className: "text-blue-500 dark:text-blue-500" },
+        {
+            text: "experiences.",
+            className: "text-blue-500 dark:text-blue-500"
+        },
     ];
 
 
     return (
         <div className='pb-20 pt-36'>
-            <div className="">
-                <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen ' fill='white' />
+          
+            <div className=" ">
+                <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen ' fill='red' />
 
-                <Spotlight className='top-10 left-full h-[80vh] w-[50vw] ' fill='purple' />
-                <Spotlight className='top-28 left-80 h-[80vh] w-[50vw]' fill='blue' />
+
+                <Spotlight className='top-28 left-80 h-screen  w-[50vw]' fill='blue' />
+
+
+                <Spotlight className='top-28 right-80 h-screen  w-[50vw]' fill='blue' />
+
+  
 
             </div>
 

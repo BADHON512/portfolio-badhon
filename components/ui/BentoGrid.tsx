@@ -28,7 +28,7 @@ export const BentoGrid = ({
   );
 };
 const leftLists = ["ReactJS", "Express", "Typescript"];
-const rightLists = ["Mongodb", "NuxtJS", "Prisma"];
+const rightLists = ["NextJS", "Mongodb", "Prisma"];
 export const BentoGridItem = ({
   className,
   title,
@@ -118,7 +118,7 @@ export const BentoGridItem = ({
           {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
           {/* remove mb-2 mt-2 */}
           <div
-            className={`font-sans text-lg lg:text-3xl font-bold z-10 w-full shadow-black ${id===1 && "text-[#cac8c8] bg-llur"}`}
+            className={`font-sans text-lg lg:text-3xl font-bold z-10  shadow-black ${id===1 && "text-[#C1C2D3]text-shadow w-full"}`}
           >
             {title}
           </div>
@@ -170,7 +170,7 @@ export const BentoGridItem = ({
                   }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
-                <Lottie options={defaultOptions} height={200} width={400} />
+                {/* <Lottie animationData={animationData} loop={copied} autoplay={true} style={{ height: 200, width: 400 }} /> */}
               </div>
 
               <MagicButton

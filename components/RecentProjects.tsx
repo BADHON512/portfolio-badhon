@@ -13,7 +13,7 @@ type Props = {}
 
 const RecentProjects = (props: Props) => {
     return (
-        <div className='py-20'>
+        <div className='py-20 ' id='projects'>
             <h1 className='font-bold text-4xl md:text-5xl text-center'>
                 A small selection of {" "} <span className='text-purple-500'>recent projects</span>
             </h1>

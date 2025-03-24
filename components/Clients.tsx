@@ -7,7 +7,7 @@ type Props = {}
 
 const Clients = (props: Props) => {
     return (
-        <div className='py-20'>
+        <div className='py-20' id='testimonials'>
             <h1 className='font-bold text-4xl md:text-5xl text-center'>
             Grateful Feedback from Our Valued {" "} <span className='text-purple-500'>Clients  </span>
             </h1>

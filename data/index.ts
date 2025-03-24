@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I emphasize strong client collaboration, fostering open and transparent communication to ensure every project aligns perfectly with their vision. ",
+    title: "I prioritize client collaboration, fostering open communication ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -70,8 +70,8 @@ export const projects = [
       "/next.svg",
       "/tail.svg",
       "/ts.svg",
-      "/prisma.svg",
-      "/socket.svg",
+      "https://res.cloudinary.com/dfng3w9jm/image/upload/v1742797634/39b2e4ad77c23a2c11e5950a7dfa2aec_f5pnwb.png",
+  
     ],
     link: "https://instagram-bd.vercel.app/",
   },
@@ -88,15 +88,15 @@ export const projects = [
     title: "Darul Ihsan Cadet Madrasa Website",
     des: "A modern and responsive Madrasa website providing admission details, academic activities, and other essential information.",
     img: "https://res.cloudinary.com/dfng3w9jm/image/upload/v1742712033/7de5b89d-0bba-4da3-aadb-8222022d9db8_ptdybt.webp", // Replace with your actual image link
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/node.svg", "/prisma.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",   "https://res.cloudinary.com/dfng3w9jm/image/upload/v1742797634/39b2e4ad77c23a2c11e5950a7dfa2aec_f5pnwb.png",],
     link: "https://your-madrasa-website-link.com", // Add live link if available
   },
 
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
+    title: "A Modern Facebook Ui Clone ",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    img: "https://res.cloudinary.com/dfng3w9jm/image/upload/v1742800506/db5198f0-af91-402b-babe-da9011ffa41f_xrchhx.webp",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/adrianhajdin/iphone",
   },
