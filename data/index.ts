@@ -89,7 +89,7 @@ export const projects = [
     des: "A modern and responsive Madrasa website providing admission details, academic activities, and other essential information.",
     img: "https://res.cloudinary.com/dfng3w9jm/image/upload/v1742712033/7de5b89d-0bba-4da3-aadb-8222022d9db8_ptdybt.webp", // Replace with your actual image link
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg",   "https://res.cloudinary.com/dfng3w9jm/image/upload/v1742797634/39b2e4ad77c23a2c11e5950a7dfa2aec_f5pnwb.png",],
-    link: "https://your-madrasa-website-link.com", // Add live link if available
+    link: "https://dicm.vercel.app/", // Add live link if available
   },
 
   {
